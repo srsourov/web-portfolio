@@ -8,15 +8,22 @@ h1 {
     font-size: 40px;
 }
 
+.buttonmargin {
+    margin-bottom: 40px;
+}
+
 .name-highlight {
     color: rgb(255, 0, 0);
 }
 
 .button {
     padding: 10px 20px;
-    background-color: red;
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(255, 0, 0));
     text-decoration: none;
     color: white;
+    font-weight: 600;
+    border-radius: 5px;
+   
     
 }
 
@@ -45,4 +52,81 @@ img {
 
 section {
     height: 550px;
+}
+
+.secondimage {
+    float: left;
+    width: 30%;
+    padding: 0px 80px;
+}
+
+
+.third-line {
+
+    width: 45%;
+    padding: 60px 50px;
+    float: left;
+}
+
+
+
+.background-image1 {
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.expertise {
+    text-align: center;
+}
+
+.oneall {
+    float: left;
+    width: 28%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    box-shadow: 5px 5px 50px #b9b9b9;
+    border-left: 5px solid blueviolet;
+    align-items: center;
+
+
+}
+
+
+
+
+.h1resize {
+    font-size: 30px;
+}
+
+
+#subscribe {
+    width: 30%;
+    height: 35px;
+    border-radius: 3px;
+    padding: 0 10px;
+    border: 2px solid rgb(0, 0, 0);
+    float: left;
+    margin: 0 0 0 28%;
+} 
+.subscribe-section {
+
+    text-align: center;
+
+}
+.button-section {
+    float: left;
+    width: 15%;
+    text-align: center;
+    margin: 7px;
+}
+
+.lastsec {
+    padding-top: 80px;
+    padding-bottom: 150px;
+    background-color:#F88568;
+    height:unset;
 }
