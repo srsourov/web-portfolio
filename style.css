@@ -8,6 +8,36 @@ h1 {
     font-size: 40px;
 }
 
+
+.Header {
+    height: unset;
+    background-color: #FB6B58;
+}
+
+.header-logo {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    color: white;
+}
+
+.header-menu {
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+}
+
+.navmenu a {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+    color: white;
+
+}
+    
+
+
 .buttonmargin {
     margin-bottom: 40px;
 }
@@ -66,6 +96,7 @@ section {
     width: 45%;
     padding: 60px 50px;
     float: left;
+    
 }
 
 
